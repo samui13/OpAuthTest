@@ -56,7 +56,7 @@ return array(
 	 *
 	 * You HAVE to set this value in your application config file!
 	 */
-	'security_salt' => null,
+	'security_salt' => 'MMOPOQ',
 
 	/**
 	 * Higher value, better security, slower hashing;
@@ -73,11 +73,10 @@ return array(
 	 * Strategy
 	 * Refer to individual strategy's documentation on configuration requirements.
 	 */
-	'Strategy' => 
-	array(
-	      'Facebook' => array(
-				  'app_id' => '545978205495987',
-				  'app_secret' => '6bb05b8a07ae44ee2a894ac5fafa1315',
-				  ),
-	      ),
+	'Strategy' => 	array(
+			      'Facebook' => array(
+						  'app_id' => '545978205495987',
+						  'app_secret' => '6bb05b8a07ae44ee2a894ac5fafa1315',
+						  ),
+			      ),
 	     );
